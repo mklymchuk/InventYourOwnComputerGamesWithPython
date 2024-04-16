@@ -26,7 +26,7 @@ def checkCave(chosenCave):
     
     friendlyCave = random.randint(1, 2)
     
-    if chooseCave == str(friendlyCave):
+    if chosenCave == str(friendlyCave):
         print('Gives you his treasure!')
     else:
         print('Gobbles you down in one bite!')
